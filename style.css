@@ -1,0 +1,66 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#head{
+  position: relative;
+  margin: 0;
+  text-align: center;
+  font-size: 5vw;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  background-color: #fc8621;
+  border-radius: 0  0 2vw 2vw;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.port{
+  width: 20%;
+  margin-top: 5vw;
+  margin-bottom: 4vw;
+  margin-left: auto;
+  margin-right: 10vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.body{
+  position: absolute;
+  top: 12vw;
+  left: 10vw;
+  background-color: #f8f1f1;
+  padding: 3vw;
+  border-radius: 3vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+
+p{
+  font-family: 'Yeon Sung', cursive;
+  color: #000;
+  font-size: 1vw;
+  
+
+}
